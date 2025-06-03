@@ -1,0 +1,132 @@
+/* Additional app-specific styles */
+.hotel-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  
+}
+
+.btn-outline-primary {
+  color: blanchedalmond !important;
+  border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+
+.chat-options button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.auth-container {
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.auth-title {
+  margin-bottom: 25px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.dashboard-container {
+  margin-top: 30px;
+}
+
+.section-title {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary);
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.page-header {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.reservation-list {
+  margin-top: 30px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.badge-custom {
+  font-size: 85%;
+  padding: 0.35em 0.65em;
+  border-radius: 10px;
+}
+
+.hotel-price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.booking-summary {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 0.25em 0.6em;
+  border-radius: 50%;
+  font-size: 75%;
+  background-color: var(--danger);
+  color: white;
+}
+
+/* Chat message options styling */
+.message-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.option-button {
+  background-color: #f0f2f5;
+  border: none;
+  
+  border-radius: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.option-button:hover {
+  background-color: #e4e6eb;
+}
+.highlight-text{
+  color: rgb(73, 245, 0);       
+  font-weight: bold;  
+}
